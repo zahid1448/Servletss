@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title>Insert title here</title>  
+</head>  
+<body>  
+<h1>Insert New Employee</h1>  
+<form action="SaveServlet" method="post">  
+<table>  
+ <tr><td>Employee_Name:</td><td><input type="text" name="Employee_Name"/></td></tr>  
+ <tr><td>Employee_code:</td><td><input type="text" name="Employee_code"/></td></tr>  
+ <tr><td>Email_Id:</td><td><input type="Email_Id" name="Email_Id"/></td></tr>  
+ <tr><td>Contact_No:</td><td><input type="Contact_No" name="Contact_No"/></td></tr>  
+ <tr><td>Reporting_Manager:</td><td><input type="text" name="Reporting_Manager"/></td></tr>  
+<tr><td>Status:</td><td><input type="text" name="Status"/></td></tr> 
+<!--<select name="Status" style="width:150px">  
+<option>active</option>  
+  <option>resigning</option> 
+</select> -->   
+</td></tr> 
+<tr><td>Date_Of_Joining(dd-mm-yyyy):</td><td><input type="text" name="Date_Of_Joining"/></td></tr>  
+<tr><td>Date_Of_Resigning(dd-mm-yyyy):</td><td><input type="text" name="Date_Of_Resigning"/></td></tr>   
+<tr><td colspan="2"><input type="submit" value="Save Employee"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewServlet">view employees</a>  
+  
+</body>  
+</html>  
